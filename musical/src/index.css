@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+  --color-light: #efeee0;
+  --color-white: #fff;
+  --color-red: #e5524a;
+  --color-dark: #2f2f2f;
+  --color-dark-alt: #1a1e1f;
+  --color-primary: #9cbcbb;
+  --color-secondary: #facd66;
+  --color-gray: rgba(255, 255, 255, 0.25);
+
+  --container-width-lg: 88%;
+  --container-width-md: 80%;
+
+  --transition: all 400ms ease-in-out;
+}
+
+body {
+  background: var(--color-dark);
+  color: var(--color-primary);
+  line-height: 1.7;
+}
+
+/* =======GENERAL STYLES======== */
+h1,
+h2 {
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--color-white);
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+a {
+  color: var(--color-light);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  max-width: 2160px;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* ===============TAB RESPONSIVENESS */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+}
+
+/* ===============MOBILE RESPONSIVENESS */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
