@@ -1,5 +1,11 @@
+import Navbar from '../../components/navbar/Navbar'
+
 const Collection = () => {
-  return <div>Collection</div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default Collection

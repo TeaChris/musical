@@ -1,5 +1,11 @@
+import Navbar from '../../components/navbar/Navbar'
+
 const Radio = () => {
-  return <div>Radio</div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default Radio

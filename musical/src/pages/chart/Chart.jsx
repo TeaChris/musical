@@ -1,5 +1,11 @@
+import Navbar from '../../components/navbar/Navbar'
+
 const Chart = () => {
-  return <div>Chart</div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  )
 }
 
 export default Chart
