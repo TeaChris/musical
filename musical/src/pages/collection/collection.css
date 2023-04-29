@@ -1,0 +1,11 @@
+main {
+  width: 100%;
+  position: relative;
+}
+
+.collectionContainer {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+  padding-top: 0.35rem;
+}

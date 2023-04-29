@@ -1,4 +1,6 @@
 import CuratedPlaylist from '../../components/CuratedPlaylist'
+import MusicToolbar from '../../components/MusicToolbar'
+import NewRelease from '../../components/NewRelease'
 import Search from '../../components/Search'
 import Navbar from '../../components/navbar/Navbar'
 
@@ -6,7 +8,7 @@ import './home.css'
 
 const Home = () => {
   return (
-    <main>
+    <main className="home">
       <div className="container home_container">
         {/* nav div */}
         <div className="">
@@ -16,8 +18,10 @@ const Home = () => {
         <div className="">
           <Search />
           <CuratedPlaylist />
+          <NewRelease />
         </div>
       </div>
+      <MusicToolbar />
     </main>
   )
 }

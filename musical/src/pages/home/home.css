@@ -1,10 +1,11 @@
 main {
   width: 100%;
+  position: relative;
 }
 
 .home_container {
   display: flex;
   align-items: start;
   gap: 2rem;
-  padding-top: 1rem;
+  padding-top: 0.35rem;
 }

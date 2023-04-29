@@ -15,6 +15,13 @@ import topChart1 from './assets/top-chart-1.png'
 import topChart2 from './assets/top-chart-2.png'
 import topChart3 from './assets/top-chart-3.png'
 
+// import collection1 from './assets/collection1.png'
+import collection2 from './assets/collection2.png'
+// import collection3 from './assets/collection3.png'
+import collection4 from './assets/collection4.png'
+import collection5 from './assets/collection5.png'
+import collection6 from './assets/collection6.png'
+
 export const navLinks = [
   {
     id: 'home',
@@ -87,5 +94,61 @@ export const topChart = [
     title: 'Tomorrow’s tunes',
     artist: 'Obi Datti',
     time: '2:01:25',
+  },
+]
+
+// export const btns = [
+//   {
+//     category: 'collection',
+//     name: 'my collection',
+//   },
+//   {
+//     category: 'likes',
+//     name: 'likes',
+//   },
+// ]
+
+export const collections = [
+  // {
+  //   id: 1,
+  //   img: collection1,
+  //   title: 'limits',
+  //   artist: 'john smith',
+  //   category: 'likes',
+  // },
+  {
+    id: 2,
+    img: collection2,
+    title: 'limits',
+    artist: 'john smith',
+    category: 'collection',
+  },
+  // {
+  //   id: 3,
+  //   img: collection3,
+  //   title: 'limits',
+  //   artist: 'john smith',
+  //   category: 'collection',
+  // },
+  {
+    id: 4,
+    img: collection4,
+    title: 'limits',
+    artist: 'john smith',
+    category: 'likes',
+  },
+  {
+    id: 5,
+    img: collection5,
+    title: 'limits',
+    artist: 'john smith',
+    category: 'collection',
+  },
+  {
+    id: 6,
+    img: collection6,
+    title: 'limits',
+    artist: 'john smith',
+    category: 'collection',
   },
 ]
