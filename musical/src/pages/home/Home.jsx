@@ -15,7 +15,7 @@ const Home = () => {
           <Navbar />
         </div>
         {/* body div */}
-        <div className="">
+        <div className="left">
           <Search />
           <CuratedPlaylist />
           <NewRelease />

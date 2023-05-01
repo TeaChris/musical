@@ -1,11 +1,11 @@
-import { useGetTopChartsQuery } from '../redux/services/spotifyApi'
+// import { useGetTopChartsQuery } from '../redux/services/spotifyApi'
 import { topChart } from '../data'
 
 import { AiOutlineHeart } from 'react-icons/ai'
 
 const TopChart = () => {
-  const { data } = useGetTopChartsQuery()
-  console.log(data)
+  // const { data } = useGetTopChartsQuery()
+  // console.log(data)
 
   return (
     <aside className="topChart">

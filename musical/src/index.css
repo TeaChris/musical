@@ -11,6 +11,11 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+html::-webkit-scrollbar {
+  width: 0.85rem;
+  aspect-ratio: 1/1;
+}
+
 :root {
   --color-light: #efeee0;
   --color-white: #fff;
@@ -322,6 +327,112 @@ input::placeholder {
   backdrop-filter: blur(-10px);
   z-index: 99;
 }
+
+.musicContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.musicLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.musicLeft > img {
+  width: 3rem;
+}
+
+.musicDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.15rem;
+}
+
+.musicDetails > h5 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.musicDetails span {
+  font-size: 0.65rem;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.musicTools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.musicTools .tools {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.musicTools .tools > div {
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+  background: var(--color-secondary);
+  border-radius: var(--card-border-radius-7);
+}
+
+/* .playSlider_container {
+  position: relative;
+} */
+
+.backLayer {
+  width: 50rem;
+  height: 0.25rem;
+  background: var(--color-dark-alt);
+  border-radius: var(--card-border-radius-1);
+}
+
+.frontLayer {
+  width: 15rem;
+  height: 0.25rem;
+  border-radius: var(--card-border-radius-1);
+  background: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  bottom: 2%;
+}
+
+.layerCircle {
+  width: 0.85rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--card-border-radius-7);
+  background: var(--color-secondary);
+  border: 1px solid var(--color-light);
+  position: absolute;
+  left: 29%;
+  bottom: -3%;
+}
+
+.volumeTools {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.volume {
+  width: 8rem;
+  height: 0.25rem;
+  background: var(--color-secondary);
+  border-radius: var(--card-border-radius-1);
+}
+
 /* ==================END OF MUSIC TOOLBAR */
 
 /* ===============COLLECTION */
@@ -397,6 +508,69 @@ input::placeholder {
   background: var(--color-secondary);
 }
 
+/* =================NEW RELEASE */
+.newRelease {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  position: relative;
+}
+
+.newRelease_title > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.newRelease_iconLeft {
+  position: absolute;
+  bottom: 42%;
+}
+
+.newRelease_iconRight {
+  position: absolute;
+  left: 56%;
+  bottom: 42%;
+}
+
+.newRelease_iconLeft,
+.newRelease_iconRight {
+  width: 2rem;
+  aspect-ratio: 1/1;
+  display: grid;
+  place-items: center;
+  background: var(--color-background);
+  color: var(--color-secondary);
+  border-radius: var(--card-border-radius-7);
+  cursor: pointer;
+}
+
+.newRelease_items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.newRelease_article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.15rem;
+  width: 10rem;
+  aspect-ratio: 1/1;
+}
+
+.newRelease_article > h6 {
+  font-size: 0.85rem;
+  font-weight: 100;
+}
+
+.newRelease_article > span {
+  font-size: 0.65rem;
+}
+
+/* =================NEW RELEASE */
 /* ===============TAB RESPONSIVENESS */
 @media screen and (max-width: 1024px) {
   .container {

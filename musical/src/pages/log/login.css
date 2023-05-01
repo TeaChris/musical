@@ -1,0 +1,31 @@
+main {
+  width: 100%;
+  position: relative;
+}
+
+.loginContainer {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+  padding-top: 0.35rem;
+}
+
+.loginTitle {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  padding-top: 15rem;
+}
+
+.loginTitle > h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.loginLink link {
+  width: 12rem;
+  height: 4rem;
+  margin-top: 2rem;
+}

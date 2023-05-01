@@ -17,7 +17,7 @@ import topChart3 from './assets/top-chart-3.png'
 
 // import collection1 from './assets/collection1.png'
 import collection2 from './assets/collection2.png'
-// import collection3 from './assets/collection3.png'
+import collection3 from './assets/collection3.png'
 import collection4 from './assets/collection4.png'
 import collection5 from './assets/collection5.png'
 import collection6 from './assets/collection6.png'
@@ -150,5 +150,74 @@ export const collections = [
     title: 'limits',
     artist: 'john smith',
     category: 'collection',
+  },
+]
+
+export const newRelease = [
+  {
+    id: 1,
+    img: collection5,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 2,
+    img: collection2,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 3,
+    img: collection3,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 4,
+    img: collection4,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 5,
+    img: collection5,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 6,
+    img: collection6,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 7,
+    img: collection4,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 8,
+    img: collection4,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 9,
+    img: collection5,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 10,
+    img: collection6,
+    title: 'Life in a bubble',
+    artist: 'john smith',
+  },
+  {
+    id: 11,
+    img: collection4,
+    title: 'Life in a bubble',
+    artist: 'john smith',
   },
 ]
